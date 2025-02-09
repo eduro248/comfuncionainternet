@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ca">
+    <title>Com funciona internet?</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Com funciona internet?" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Side Navigation -->
+
+    <!-- Header -->
+    <header class="w3-container w3-theme w3-padding" id="myHeader">
+      <i
+        onclick="w3_open()"
+        class="fa fa-bars w3-xlarge w3-button w3-theme"
+      ></i>
+      <div class="w3-center">
+        <h1 class="w3-xxxlarge w3-animate-bottom">Com funciona internet?</h1>
+        <div class="w3-padding-32"></div>
+      </div>
+    </header>
+
+    <!-- Modal -->
+
+    <div class="w3-row-padding w3-center w3-margin-top">
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>Origen de la xarxa d'internet</h2>
+          <br />
+          <i
+            class="fa fa-desktop w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Quin va ser l'origen</h3>
+          <p>
+            Va ser el resultat d'un experiment de dos investigadors, encara que la idea ja va sortir a la guerra dels anys 60 on els Estats Units va crar una xarxa exclusiva militar, aquesta es va crear al 69 amb el nom <strong>d'ARPANET</strong>
+
+          </p>
+          <img src="imatges/internet.jpeg" width="250" alt= "foto internet">
+          <br>
+          <h3>Qui ho controla?</h3>
+          <p>No ho controla ningú en concret, és tothom.</p>
+          <img src="imatges/inetrnet2.webp" width="250" alt= "foto internet2">
+         <br>
+          <br />
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>Sistemes de transmisió de dades</h2>
+          <br />
+          <i
+            class="fa fa-css3 w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Mitjans principals</h3>
+          <p>
+            La llum, amb la fibra òptica a través de la llum, amb ones de ràdio,
+            telefonia i wifi, i amb l’electricitat a través de cables de coure.
+          </p>
+          <h3>Amplada de banda (bandwith) i la latència</h3>
+          <p>
+            És la capacitat màxima de transmissió de dades d’un dispositiu, la
+            latència és el temps que tarda un bit a viatjar des d'un lloc a
+            l'altre.
+          </p>
+          <h3>Aventatges i desaventatges</h3>
+          <h4>Dels cables de coure o cables Ethernet</h4>
+
+          <p>
+            El principal avantatge és que és molt barato i pot recórrer grans
+            distàncies, el desavantatge es que perd senyal fàcilment.
+          </p>
+          <h4>Cables de fibra òptica</h4>
+          <p>
+            Els principals avantatges són que és molt ràpid i que no perd senya,
+            però, en canvi, el principal inconvenient és que és car i a més
+            costa d’instal·lar
+          </p>
+          <h4>Ones de ràdio</h4>
+          <p>
+            El principal avantatge és que tens tota la mobilitat que vulguis
+            però en un rang curt.
+          </p>
+          <h3>Altres sistemes</h3>
+          <p>
+            Un exemple és el mateix internet que transmet la informació amb
+            ones, ex. Transmissió per satèl·lit GPS
+          </p>
+          <br />
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>Adreça i proticol IP</h2>
+          <br />
+          <i
+            class="fa fa-diamond w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Que es un protocol?</h3>
+          <p>
+            És un conjunt de regles conegudes per tots i en la que tothom està
+            d’acord en fer-les servir, permet que ens puguem comunicar sense
+            problema.
+          </p>
+          <h3>Adreça IP</h3>
+          <p>És un número únic que té cada dispositiu de la xarxa.</p>
+          <h4>Utilitat</h4>
+          <p>
+            Es fan servir per saber a on enviar la informació quan un ordinador
+            li pregunta a un altre sobre alguna informació.
+          </p>
+    
+          <img src="imatges/ip.png" width="200" alt= "foto ip">
+          <br>
+          <h3>Diferencies entre IPv4 i IPv6</h3>
+          <p>
+            En el IPv4 les adreces tenen 32 bits i en el IPv6 tenen 128 bits,
+            fent que el segon tingui més combinacions.
+          </p>
+          <h3>Sunció servidor DHCP</h3>
+          <p>
+            Assignar a cada ordinador que es connecta a la xarxa una adreça IP
+            de forma automàtica. En llocs domestics es troba en el mateix router
+            local.
+          </p>
+          <h4>Podria funcionar la xarxa local sense DHCP</h4>
+          <p>
+            Sí que podria funcionar, però caldria configurar manualment l'adreça
+            IP i la passarel·la de cada dispositiu.
+          </p>
+          <br />
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-margin-top">
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>DNS</h2>
+          <br />
+          <i
+            class="fa fa-css3 w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Funció protocol DNS</h3>
+          <p>
+            Tradueix els noms de domini a adreces IP perquè els navegadors
+            puguin carregar els recursos d’internet.
+          </p>
+          <h3>Funció del sistema</h3>
+          <p>
+            Els diferents servidors es connecten entre si per poder cercar
+            informació més ràpida, organitzant-se en jerarquies.
+          </p>
+          
+          <img src="imatges/dns.png" width="200" alt= "foto dns">
+          <br>
+          <h3>Podria funcionar internet sense aquests servidors</h3>
+          <p>
+            Sí, però hauríem d'acordar-nos de cada adreça IP que volguéssim
+            consultar, fent que sigues molt més difícil trobar algunes pàgines.
+          </p>
+          <h3>En que consisteix l'atac d'enverinament DNS o DNS spoofing</h3>
+          <p>
+            És un tipus d’atac on un hacker canvia l'adreça IP d’una pàgina i
+            fica una adreça incorrecta.
+          </p>
+          <br />
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>Router</h2>
+          <br />
+          <i
+            class="fa fa-css3 w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Que es un router?</h3>
+          <p>
+            És un dispositiu wifi que envia informació des d'internet a
+            dispositius personals.
+          </p>
+          <br>
+          <img src="imatges/router.jpeg" width="250" alt= "foto router">
+          <br>
+          <h3>Altres funcions que tenen els routers domèstics</h3>
+          <p>
+            Algunes funcions són trobar altres rutes per transportar la
+            informació de forma més eficient o transformar una informació en
+            paquets.
+          </p>
+          <br>
+          <img src="imatges/router2.png" width="350" alt= "foto router2">
+          <br>
+
+          <br />
+          <br>
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>Protocol TCP</h2>
+          <br />
+          <i
+            class="fa fa-css3 w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Quina funció té?</h3>
+          <p>
+            El protocol TCP s’encarrega que la informació arribi a la direcció
+            que el protocol IP li diu.
+          </p>
+          <br>
+          <img src="imatges/tcp.jpg" width="250" alt= "foto tcp">
+          <br>
+          <h3>Relacio entre protocol TCP i IP</h3>
+          <p>És un número únic que té cada dispositiu de la xarxa.</p>
+          <h4>Com comprova que els paquets arriben correctament</h4>
+          <p>
+            Per comprovar-ho marca els paquets que si han arribat, si hi falta
+            algun ho informa.
+          </p>
+          <h3>Podria funcionar internet sense aquest protocol</h3>
+          <p>
+            Podria funcionar, però no funcionaria del tot va, ja que si
+            faltessin paquets d’informació no es podria arreglar abans que algú
+            se n'adonés.
+          </p>
+
+          <br />
+        </div>
+      </div>
+
+      <div class="w3-row-padding w3-center w3-margin-top">
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>HTTP</h2>
+          <br />
+          <i
+            class="fa fa-css3 w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Quina funció té un navegador web i que es un URL</h3>
+          <p>
+            Que els usuaris que el fan servir trobin la informació que busquen,
+            un URL és una direcció concreta.
+          </p>
+          <h3>Qué es el protocol HTTP i quins aparells comunica</h3>
+          <p>
+            És el llenguatge que utilitza l’ordinador, comunica els ordinadors
+            amb els servidors.
+          </p>
+
+          <h3>Diferencies entre HTTP i l’HTTPS</h3>
+          <p>
+            L’HTTPS és el HTTP, però amb un protocol incorporat que permet que
+            la pàgina sigui segura.
+          </p>
+          <img src="imatges/https.jpeg" width="200" alt= "foto https">
+          <br />
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height: 460px">
+          <h2>HTML</h2>
+          <br />
+          <i
+            class="fa fa-css3 w3-margin-bottom w3-text-theme"
+            style="font-size: 120px"
+          ></i>
+          <h3>Que es el llenguatge HTML i elements que ho formen</h3>
+          <p>
+            És el llenguatge que utilitza per dir a un navegador com és una
+            pàgina, es troba dins el HTTP, i per això el formen els servidors i
+            els ordinadors, aquests últims rebent-lo.
+          </p>
+          <img src="imatges/html.jpeg" width="200" alt= "Foto html">
+          <h3>Les imatges/videos s'adjunten amb la resta del document</h3>
+          <p>
+            No, aquests s’envien per separat, per això a vegades tarden a
+            carregar.
+          </p>
+
+          <br />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
